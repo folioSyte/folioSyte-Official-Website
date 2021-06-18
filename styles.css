@@ -48,12 +48,14 @@ body, html {
 .navbar-light .navbar-brand {
   /*for the folio brand*/
   color: #ffffff;
+  font-size:3rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: bold;
   padding: 20px;
+  font-size: 1.5rem;
 }
 
 .icon {
