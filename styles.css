@@ -1,0 +1,78 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.title {
+  /*title section.*/
+  background-image: url("/Assets/Images/topImg2.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  transition: 2s;
+}
+
+.navbar {
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.title-text {
+  /*for the get yourself text.*/
+  margin-top: 10%;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.layer {
+  background-color: rgba(0, 44, 102, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.collapse.navbar-nav.item.nav-link {
+  /*for the links in navbar*/
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  /*for the folio brand*/
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.icon {
+  align-items: center;
+  color: white;
+  margin-left: 50%;
+  margin-top: 45%;
+  animation: MoveUpDown 1.5s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 20% {
+    transform: translateY(20);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+}
