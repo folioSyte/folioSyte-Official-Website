@@ -2,6 +2,10 @@ body, html {
   margin: 0;
   height: 100%;
 }
+h1{
+  font-size: 3.5rem;/*new addition*/
+
+}
 
 .title {
   /*title section.*/
@@ -12,7 +16,7 @@ body, html {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  transition: 2s;
+  transition: 2.5s;
 }
 
 .navbar {
@@ -21,9 +25,12 @@ body, html {
   margin-top: 30px;
   color: #ffffff;
 }
+.slider-icon{      /*new added hamburger icon*/
+  color:white;
+}
 
 .title-text {
-  /*for the get yourself text.*/
+/*for the get yourself text.*/
   margin-top: 10%;
   color: #ffffff;
   font-family: 'Merriweather', serif;
@@ -54,14 +61,14 @@ body, html {
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: bold;
-  padding: 20px;
+  padding: 30px;
   font-size: 1.5rem;
 }
 
-.icon {
+.icon { /*arrow placement*/
   align-items: center;
   color: white;
-  margin-left: 50%;
+  margin-left: 48%;
   margin-top: 45%;
   animation: MoveUpDown 1.5s linear infinite;
   position: absolute;
@@ -69,7 +76,7 @@ body, html {
   bottom: 0;
 }
 
-@keyframes MoveUpDown {
+@keyframes MoveUpDown { /*for arrow animation*/
   0%, 20% {
     transform: translateY(20);
   }
@@ -77,4 +84,100 @@ body, html {
   50% {
     transform: translateY(-100px);
   }
+}
+
+
+/*for the second  section*/
+
+
+.reasons{
+  height: 100vh;
+  text-align: center;
+}
+.reasons-text{
+  padding: 5%;
+
+}
+
+.box{
+  display:inline-block;
+  width:230px;
+  height:350px;
+  border:1px solid 	#808080;
+    position:relative;
+
+}
+.inside-box-text{
+  padding-top: 90%;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color:#003399;
+
+}
+.inside-box-line{
+  padding-top: 0;;
+  color: gray;
+  margin:auto;
+  opacity: 1;
+  position: relative;
+
+
+  width: 80%;
+  text-align: center;
+}
+hr:not([size]) {
+  height: 2px;
+}
+.inside-box-number{
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.l1{
+  color:red;
+}
+.l2{
+color: yellow;
+}
+.l3{
+  color:green;
+}
+.l4{
+  color:blue;
+}
+.reasons-link{
+  padding:3%;
+}
+.main-text,.sub-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #003399;
+}
+
+/*new added for responsive*/
+
+@media  (max-width:600px){
+  #head{
+    background-image:url("topImg2.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+     transition: 2.5s;
+  }
+  .row{
+    padding-top: 30%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+  h1{
+    font-size: 2rem;
+    }
+
+    .navbar-light .navbar-brand{
+      font-size: 2.5rem;
+    }
 }
