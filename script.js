@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //sroll down fade effect.
 
 //new copied code.
