@@ -32,9 +32,9 @@ footer button{
 
 #brand_logo{
     font-family: amsterdam-two;
-    -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -80,8 +80,11 @@ footer button{
   border: none !important;
 }
 
-#hamburger {
-  color: #fff;
+.navbar {
+  /* margin-left: 30px;
+  margin-right: 50px;*/
+  margin-top: 2rem;
+  color: #ffffff;
 }
 
 .title h1 {
@@ -136,7 +139,7 @@ footer button{
 
 
 .reasons{
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
 }
 .reasons-text{

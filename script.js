@@ -1,5 +1,6 @@
 //sroll down fade effect.
 
+//new copied code.
 $(document).ready(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 0) {
@@ -15,7 +16,6 @@ $(document).ready(function() {
 
     }
   })
-
 
 //for smoothe scroll effect. Not working
 $(document).ready(function(){
