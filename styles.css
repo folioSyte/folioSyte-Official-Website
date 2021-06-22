@@ -73,7 +73,9 @@ footer button{
 
 /* Section 3 and footer CSS is Above */
 
-
+#hamburger {
+  color: #fff;
+}
 
 
 #Head {
@@ -86,9 +88,6 @@ footer button{
 }
 
 .navbar {
-  /* margin-left: 30px;
-  margin-right: 50px;*/
-  margin-top: 2rem;
   color: #ffffff;
 }
 
