@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #about{
   color: #002C66;
   /* min-height: 100vh; */
@@ -56,6 +60,7 @@ footer button{
   height: 100%;
   opacity: 0.5;
   background-image: url("Assets/Images/footer\ image.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -121,6 +126,7 @@ footer button{
   height: 100%;
   opacity: 0.3;
   background-image: url("Assets/Images/topImg2.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
