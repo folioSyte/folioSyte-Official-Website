@@ -1,12 +1,35 @@
-/* body, html {
-  margin: 0;
-  height: 100%;
-} */
+#about{
+  color: #002C66;
+  /* min-height: 100vh; */
+}
+
+#about h1{
+  font-size: 3.5rem;
+}
+
+#about hr{
+  padding: 2px;
+  background-color: #002C66;
+  opacity: 1;
+
+}
+
+footer{
+    background-color: #002C66;
+}
+
+footer button{
+    background-color: #002C66!important;
+    border: none!important;
+}
+
+/* brand logo css */
 
 @font-face {
   font-family: amsterdam-two;
   src: url(Assets/Fonts/amsterdam-two-ttf.ttf);
 }
+
 #brand_logo{
     font-family: amsterdam-two;
     -webkit-user-select: none;  
@@ -14,9 +37,46 @@
   -ms-user-select: none;      
   user-select: none;
 }
+
 #brandS{
     color: #737373;
 }
+
+#footer_bg {
+  position: relative;
+}
+
+#footer_bg:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url("Assets/Images/footer\ image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+#footer_content {
+  position: relative;
+}
+
+
+/* Section 3 and footer CSS is Above */
+
+
+
+
+
+/* body, html {
+  margin: 0;
+  height: 100%;
+} */
+
 
 .navbar-toggler{
     border: none!important;
