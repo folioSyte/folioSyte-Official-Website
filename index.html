@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
   <title>folioSyte: Miss no opportunity to remain ahead of the competition!</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -57,60 +58,25 @@
     </section>
 
 
-  <!-- new section-->
-
-  <section class="reasons">
-    <div class="reasons-text">
-      <h2 class="main-text">Reasons to have a Portfolio-Site</h2>
-      <h5 class="sub-text">Miss no opportunity to remain ahead of the competition!</h5>
-
+  <section class="my-5 py-5" id="reasons">
+    <div class="container py-5 text-center">
+      <h1><b>Reasons to have a Portfolio-Site</b></h1>
+      <h3>Miss no opportunity to remain ahead of the competition!</h3>
     </div>
-    <div class="blocks">
-      <div class="box">
-        <p class="inside-box-number">1</p>
-        <hr class="inside-box-line l1">
-        <h6 class='inside-box-text'>PROFESSIONALISM</h6>
-
-      </div>
-      <div class="box">
-        <p class="inside-box-number ">2</p>
-        <hr class="inside-box-line l2 ">
-        <h6 class='inside-box-text'>IDENTITY</h6>
-
-      </div>
-      <div class="box">
-        <p class="inside-box-number ">3</p>
-        <hr class="inside-box-line l3">
-        <h6 class='inside-box-text'>SHOWCASE YOUR WORK</h6>
-
-      </div>
-      <div class="box last">
-        <p class="inside-box-number ">4</p>
-        <hr class="inside-box-line l4 ">
-        <h6 class='inside-box-text'> FOR CLIENTS AND EMPLOYERS</h6>
-
+  <div class="container py-5 reason-group">
+        <div class="row text-center">
+          <div id="col1" class="col">1<hr class="line">Capable<hr class="line2"><p class="reasonInfo"></p></div><!--
+      --><div id="col2" class="col">2<hr class="line">Comprehensive<hr class="line2"><p class="reasonInfo"></p></div><!--
+      --><div id="col3" class="col">3<hr class="line">Coherent<hr class="line2"><p class="reasonInfo"></p></div><!--
+      --><div id="col4" class="col">4<hr class="line">Competitive<hr class="line2"><p class="reasonInfo"></p></div><!--
+      --><div id="col5" class="col">5<hr class="line">Customizable<hr class="line2"><p class="reasonInfo"></p></div>
+        </div>
       </div>
 
-
-
+    <div class="container py-5 text-center">
+      <h5><a id="Link" href="https://www.linkedin.com/pulse/five-foremost-reasons-you-need-portfolio-site-today-/" target="_blank" rel="noopener noreferrer"><i>Read Our Detailed Blog</i> &#128279;</a></h5>
     </div>
-    <div class="reasons-link">
-      <a href="#">
-        <p>READ OUR DETAILED BLOG</p>
-      </a>
-
-
-    </div>
-
-
-
   </section>
-
-
-
-
-
-
   <img src="Assets/Images/folioSyte_Design.png" class="img-fluid pb-5" alt="Design" />
     <section id="about" class="container p-5 text-center">
       <h1 class="mx-sm-5">
@@ -162,23 +128,27 @@
               <h1 class="display-3"><b>Inquire Now</b></h1>
               <hr />
 
-              <form>
+              <form action="https://send.pageclip.co/nvsYDVQouxCjue8FXcscYyFvjahIw6QP/Website_Contact" class="pageclip-form" method="post">
                 <div class="mb-3">
-                  <label class="form-label" for="name">YOUR NAME</label>
+                  <label class="form-label" for="name">YOUR NAME<span>*</span></label>
                   <input
                     type="text"
+                    name="name"
                     id="name"
                     class="form-control"
                     placeholder="John Smith"
+                    required
                   />
                 </div>
                 <div class="mb-3">
-                  <label class="form-label">YOUR EMAIL ADDRESS</label>
+                  <label class="form-label">YOUR EMAIL ADDRESS<span>*</span></label>
                   <input
                     type="email"
+                    name="email"
                     class="form-control"
                     aria-describedby="email"
                     placeholder="johnsmith@example.com"
+                    required
                   />
 
                   <div id="email" class="form-text text-light">
@@ -193,6 +163,7 @@
                     >DESCRIBE YOUR REQUIREMENTS</label
                   >
                   <textarea
+                  name="requirements"
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
@@ -200,7 +171,7 @@
                   ></textarea>
                 </div>
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary btn-lg">
+                  <button type="submit" class="pageclip-form__submit btn btn-primary btn-lg">
                     <b>SEND MESSAGE</b>
                   </button>
                 </div>
@@ -216,7 +187,7 @@
             <h5>Home &ensp; Blog &ensp; About</h5>
           </div>
           <div class="col-sm-4">
-            <h5>Dribble | LinkedIn | Fiverr</h5>
+            <h5>Dribble | LinkedIn | GitHub</h5>
           </div>
           <div class="col-sm-4">
             <h5>Copyright &copy; 2021 folioSyte.</h5>
@@ -224,14 +195,24 @@
         </div>
       </div>
       <div class="container-fluid bg-white text-center">
-        <b class="">Made with &hearts;</b>
+        <div class="row">
+         <div class="col-sm-4">
+            <b><a id="Link" href="https://www.linkedin.com/pulse/five-foremost-reasons-you-need-portfolio-site-today-/" target="_blank" rel="noopener noreferrer"><i>We want feedback!</i></a></b>
+          </div>
+          <div class="col-sm-4">
+            <b class="">Made with &hearts;</b>
+          </div>
+          <div class="col-sm-4">
+            <b><a id="Link" href="https://forms.gle/BxBGCqYCx55Swg3v8" target="_blank" rel="noopener noreferrer"><i>Want to join us?</i></a></b>
+          </div>
+        </div>
       </div>
     </footer>
 
 
 
   <script src="script.js" charset="utf-8"></script><!-- local js file linked-->
-
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
