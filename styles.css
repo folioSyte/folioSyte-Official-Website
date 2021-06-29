@@ -41,6 +41,7 @@ footer button{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
 }
 
 #brandS{
@@ -93,9 +94,10 @@ footer button{
 }
 
 .title h1 {
-  font-size: 4.5rem;
-  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  /* font-family: "Merriweather", serif; */
   position: relative;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -108,6 +110,7 @@ footer button{
   position: absolute;
   top: 90%;
   animation: MoveUpDown 1.5s linear infinite;
+    color: #fff !important;
 }
 
 @keyframes MoveUpDown {
@@ -123,13 +126,15 @@ footer button{
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  height: 100vh;
   opacity: 0.3;
   background-image: url("Assets/Images/topImg2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
+
 }
 
 @media (max-width: 600px) {
@@ -169,7 +174,7 @@ footer button{
   border-width: 1px 1px 1px 0 ;
   border-color: #DADADA;
   width: 15rem;
-  height: 30rem;
+  height: 25rem;
   padding-top: 3rem;
   transition-duration: 0.7s;
 }
